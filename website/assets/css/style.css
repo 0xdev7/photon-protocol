@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  background: url(../imgs/bg_desktop.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 25px);
+  font-family: 'Roboto', sans-serif;
+  transform-origin: top center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  color: #253449;
+}
+
+p {
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+}
+
+sup {
+  font-size: 40%;
+  font-weight: 900;
+  top: -1em;
+}
+
+input {
+  width: 100%;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  padding: 5px 9px;
+  font-size: 12px;
+}
+
+label{
+  font-size: 0.7rem;
+}
+
+.card {
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 2rem 1.5rem;
+}
+
+.card-bg-dark {
+  background-color: #253449;
+}
+
+.display-3, .display-4 {
+  font-weight: 900;
+}
+
+.progress {
+  height: 0.3rem;
+}
+
+.progress-bar {
+  background-color: #74d174;
+}
+
+.progress-bar::before {
+  content: ' ';
+  position: absolute;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: rgb(16, 107, 8);
+}
+
+.progress-bar::after {
+  content: ' ';
+  position: absolute;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: rgb(16, 107, 8);
+  left: 25%;
+}
+
+.header {
+  margin: 25px 0px 20px 0px;
+}
+
+.header h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.header > div{
+  padding: 0px 15px;
+  align-items: center;
+}
+
+.header button {
+  background: linear-gradient(214deg, #74d174 30%, #abfd57);
+  color: white;
+  border: none;
+  padding: 8px 50px;
+  border-radius: 10px;
+}
+
+.wealth img {
+  max-width: 55px;
+}
+
+.wealth .feature .card {
+  margin-bottom: 3px;
+}
+
+.wealth .feature p {
+  margin-bottom: 0px;
+}
+
+.jets {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.certik img {
+  max-width: 55px;
+  margin-bottom: 10px;
+}
+
+.price .card {
+  background: linear-gradient(150deg, #71c3f1 46%, #c3f6b5);
+  color: white;
+}
+
+.apy .card {
+  background: linear-gradient(214deg, #74d174 30%, #abfd57);
+  color: white;
+  padding-bottom: 1.5em;
+}
+
+.apy .card-body {
+  padding-bottom: 0px;
+}
+
+.social .card-header {
+  background: linear-gradient(0deg, #abe7de, #dbfee2);
+}
+
+.social img {
+  max-width: 20%;
+}
+
